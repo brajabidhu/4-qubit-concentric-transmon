@@ -1,0 +1,65 @@
+{
+  "PALACE_version": "v14.4",
+  "workspace": "/content/drive/MyDrive/Palace6/meshesv4",
+  "GDS": {
+    "path": "/content/drive/MyDrive/Palace6/meshesv4/gds/quantum_chip_TARGET_GEOMETRY_v14_4_CLEAN.gds",
+    "sha256": "ffe3d6956a50248a60c2b13a9f5c82d6cb5f13d042996966fca72e2e0013d2e9",
+    "locked": true
+  },
+  "MSH": {
+    "path": "/content/drive/MyDrive/Palace6/meshesv4/mesh/quantum_chip_TARGET_GEOMETRY_v14_4_COMPLETE_EM_v6.msh",
+    "sha256": "ca37ca04b6f4c337ac70e8173fa0cfc9e8e2aba625f5cd319a03644ec26df25e",
+    "locked": true
+  },
+  "qubit_targets_GHz": {
+    "Q1": 4.8,
+    "Q2": 5.2,
+    "Q3": 5.7,
+    "Q4": 6.1
+  },
+  "JJ_attributes": {
+    "JJ1": 10,
+    "JJ2": 11,
+    "JJ3": 12,
+    "JJ4": 13,
+    "JJ5": 14,
+    "JJ6": 15,
+    "JJ7": 16,
+    "JJ8": 17
+  },
+  "mesh_attributes": {
+    "SUPERCONDUCTOR": 200,
+    "SUBSTRATE": 100,
+    "VACUUM": 101
+  },
+  "transmon_criteria": {
+    "frequency_tolerance_MHz": 50.0,
+    "anharmonicity_expected_GHz": [
+      -0.4,
+      -0.2
+    ],
+    "EJ_over_EC_min": 20.0,
+    "EJ_over_EC_max": 100.0,
+    "minimum_dominant_qubit_EPR_fraction": 0.5,
+    "require_physical_mode_identification": true,
+    "extract_g": true,
+    "flux_tunable": true
+  },
+  "required_postprocessing": [
+    "eigenfrequencies",
+    "physical_mode_identification",
+    "JJ_EPR",
+    "qubit_EPR",
+    "anharmonicity",
+    "EJ_over_EC",
+    "qubit_qubit_g",
+    "mode_spacing",
+    "unwanted_mode_check"
+  ],
+  "status": {
+    "GDS_modified": false,
+    "MSH_modified": false,
+    "JJ_modified": false,
+    "PALACE_solve_run": false
+  }
+}

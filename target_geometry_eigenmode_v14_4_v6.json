@@ -1,0 +1,65 @@
+{
+  "Problem": {
+    "Type": "Eigenmode",
+    "Verbose": 2,
+    "Output": "/content/drive/MyDrive/Palace6/meshesv4/palace_config/TARGET_EIGENMODE_v6/palace_target_eigenmode",
+    "OutputFormats": {
+      "Paraview": false,
+      "GridFunction": false
+    }
+  },
+  "Model": {
+    "Mesh": "/content/drive/MyDrive/Palace6/meshesv4/mesh/quantum_chip_TARGET_GEOMETRY_v14_4_COMPLETE_EM_v6.msh",
+    "L0": 0.001
+  },
+  "Domains": {
+    "Materials": [
+      {
+        "Attributes": [
+          100
+        ],
+        "Permittivity": 11.45
+      },
+      {
+        "Attributes": [
+          101
+        ],
+        "Permittivity": 1.0
+      }
+    ],
+    "Postprocessing": {
+      "Energy": [
+        {
+          "Index": 1,
+          "Attributes": [
+            100
+          ]
+        },
+        {
+          "Index": 2,
+          "Attributes": [
+            101
+          ]
+        }
+      ]
+    }
+  },
+  "Boundaries": {
+    "PEC": [
+      {
+        "Attributes": [
+          200
+        ]
+      }
+    ],
+    "LumpedPort": []
+  },
+  "Solver": {
+    "Eigenmode": {
+      "N": 32,
+      "Target": 5.2,
+      "Tol": 1e-08,
+      "MaxIt": 500
+    }
+  }
+}
