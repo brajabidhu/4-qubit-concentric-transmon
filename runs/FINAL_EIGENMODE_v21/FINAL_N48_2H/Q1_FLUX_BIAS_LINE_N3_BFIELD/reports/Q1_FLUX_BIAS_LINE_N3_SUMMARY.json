@@ -1,0 +1,39 @@
+{
+  "campaign": "Q1_FLUX_BIAS_LINE_N3_BFIELD",
+  "analysis_scope": "Q1 flux-bias line only",
+  "excluded": [
+    "Q1 qubit",
+    "JJ1",
+    "JJ2",
+    "readout resonator",
+    "XY drive",
+    "coupler",
+    "Q2",
+    "Q3",
+    "Q4"
+  ],
+  "N": 3,
+  "target_GHz": 6.8326,
+  "target_upper_GHz": 7.5,
+  "reference_Q1_frequency_GHz": 6.832612991,
+  "mesh": "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/quantum_chip_TARGET_GEOMETRY_v14_4_CONFORMAL_v21_PEC_CLEAN.msh",
+  "mesh_sha256": "a27cbbe5cb23e68619718c75dba29df38595eb57760abe43f11d10907b5d2b3f",
+  "configuration": "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/FINAL_N48_2H/Q1_FLUX_BIAS_LINE_N3_BFIELD/config/Q1_FLUX_BIAS_LINE_N3_INPUT.json",
+  "field_output": "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/FINAL_N48_2H/Q1_FLUX_BIAS_LINE_N3_BFIELD/field_output",
+  "log": "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/FINAL_N48_2H/Q1_FLUX_BIAS_LINE_N3_BFIELD/logs/PALACE_Q1_FLUX_BIAS_LINE_N3.log",
+  "start_time": "2026-08-22T14:40:50.155997",
+  "elapsed_minutes": 115.27952721118928,
+  "return_code": 0,
+  "spatial_files": [
+    "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/FINAL_N48_2H/Q1_FLUX_BIAS_LINE_N3_BFIELD/field_output/paraview/eigenmode/eigenmode.pvd",
+    "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/FINAL_N48_2H/Q1_FLUX_BIAS_LINE_N3_BFIELD/field_output/paraview/eigenmode_boundary/eigenmode_boundary.pvd",
+    "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/FINAL_N48_2H/Q1_FLUX_BIAS_LINE_N3_BFIELD/field_output/paraview/eigenmode_boundary/Cycle000001/proc000000.vtu",
+    "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/FINAL_N48_2H/Q1_FLUX_BIAS_LINE_N3_BFIELD/field_output/paraview/eigenmode_boundary/Cycle000001/data.pvtu",
+    "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/FINAL_N48_2H/Q1_FLUX_BIAS_LINE_N3_BFIELD/field_output/paraview/eigenmode/Cycle000001/proc000000.vtu",
+    "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/FINAL_N48_2H/Q1_FLUX_BIAS_LINE_N3_BFIELD/field_output/paraview/eigenmode/Cycle000001/data.pvtu",
+    "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/FINAL_N48_2H/Q1_FLUX_BIAS_LINE_N3_BFIELD/field_output/paraview/eigenmode/Cycle000002/proc000000.vtu",
+    "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/FINAL_N48_2H/Q1_FLUX_BIAS_LINE_N3_BFIELD/field_output/paraview/eigenmode/Cycle000002/data.pvtu"
+  ],
+  "mutual_inductance_status": "NOT_DIRECTLY_EXTRACTED_FROM_EIGENMODE",
+  "mutual_inductance_definition": "M = Phi_Q / I_flux"
+}

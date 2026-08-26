@@ -1,0 +1,26 @@
+PALACE v21 — Q1 FLUX-BIAS LINE ONLY
+3-D MAGNETIC FIELD ANALYSIS
+================================================================================
+
+PVD: /content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/FINAL_N48_2H/Q1_FLUX_BIAS_LINE_N3_BFIELD/field_output/paraview/eigenmode/eigenmode.pvd
+Selected cycle: 1
+Mesh points: 1692892
+Mesh cells: 423223
+
+Dominant attribute: 101
+Dominant-region cells: 233878
+
+MAGNETIC FIELD STATISTICS
+--------------------------------------------------------------------------------
+Minimum |B| : 3.662742755187e-13
+Maximum |B| : 5.802790959073e+00
+Mean |B|    : 2.840015181797e-05
+Median |B|  : 3.857660982943e-09
+P90         : 5.361145232022e-08
+P95         : 1.181915252064e-07
+P99         : 4.923600312317e-07
+P99.9       : 1.334084340124e-06
+
+IMPORTANT SCIENTIFIC NOTE
+--------------------------------------------------------------------------------
+The dominant attribute is selected using the largest maximum |B| criterion. This does not independently establish the physical identity of that attribute as the Q1 flux-bias line. Physical-region mapping should be verified from the Gmsh/PALACE mesh definition before publication.

@@ -1,0 +1,43 @@
+{
+    "title": "Q1 Flux-Bias Line \u2014 3-D Magnetic Field",
+    "source": {
+        "pvd": "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/FINAL_N48_2H/Q1_FLUX_BIAS_LINE_N3_BFIELD/field_output/paraview/eigenmode/eigenmode.pvd",
+        "cycle": 1
+    },
+    "mesh": {
+        "points": 1692892,
+        "cells": 423223
+    },
+    "field": {
+        "global_min_B": 3.811824165071467e-16,
+        "global_max_B": 5.802790959072855,
+        "global_mean_B": 1.5732261605223267e-05,
+        "global_median_B": 3.601115018158081e-09,
+        "global_P99_B": 5.200180007812531e-07,
+        "global_P99_9_B": 1.3721717025412786e-06
+    },
+    "dominant_attribute": {
+        "attribute": 101,
+        "cells": 233878,
+        "points": 935512,
+        "B_min": 3.662742755187443e-13,
+        "B_max": 5.802790959072855,
+        "B_median": 3.85766098294258e-09,
+        "B_P99": 4.923600312316601e-07,
+        "B_P99_9": 1.3340843401241704e-06
+    },
+    "visualization": {
+        "high_field_threshold": 4.923600312316601e-07,
+        "vector_count": 3500,
+        "arrow_factor": 0.35707142142714254
+    },
+    "outputs": {
+        "main_figure": "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/FINAL_N48_2H/Q1_FLUX_BIAS_LINE_N3_BFIELD/3D_FIELD_PLOTS/PAPER_READY/FIG_Q1_FBL_3D_B_FIELD_PAPER_MAIN.png",
+        "high_field_closeup": "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/FINAL_N48_2H/Q1_FLUX_BIAS_LINE_N3_BFIELD/3D_FIELD_PLOTS/PAPER_READY/FIG_Q1_FBL_3D_B_FIELD_HIGH_FIELD_CLOSEUP.png",
+        "direction_figure": "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/FINAL_N48_2H/Q1_FLUX_BIAS_LINE_N3_BFIELD/3D_FIELD_PLOTS/PAPER_READY/FIG_Q1_FBL_3D_B_FIELD_DIRECTION.png",
+        "dominant_region_vtu": "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/FINAL_N48_2H/Q1_FLUX_BIAS_LINE_N3_BFIELD/3D_FIELD_PLOTS/PAPER_READY/Q1_FBL_DOMINANT_REGION_B_FIELD.vtu",
+        "high_field_vtu": "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/FINAL_N48_2H/Q1_FLUX_BIAS_LINE_N3_BFIELD/3D_FIELD_PLOTS/PAPER_READY/Q1_FBL_HIGH_FIELD_REGION_P99.vtu",
+        "statistics_csv": "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/FINAL_N48_2H/Q1_FLUX_BIAS_LINE_N3_BFIELD/3D_FIELD_PLOTS/PAPER_READY/Q1_FBL_B_FIELD_ATTRIBUTE_STATISTICS.csv"
+    },
+    "publication_caution": "The dominant attribute was selected numerically using the largest maximum magnetic-field magnitude. This does not independently establish the physical identity of that attribute as the Q1 flux-bias-line conductor. Physical-group mapping from the original mesh should be verified before assigning a material/geometry label to the attribute in a manuscript."
+}

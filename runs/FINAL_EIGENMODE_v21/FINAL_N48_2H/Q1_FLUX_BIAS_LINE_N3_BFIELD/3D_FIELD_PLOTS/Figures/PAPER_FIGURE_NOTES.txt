@@ -1,0 +1,18 @@
+Q1 FLUX-BIAS LINE — PAPER FIGURE NOTES
+================================================================================
+
+Recommended primary figure:
+FIG_Q1_FBL_3D_B_FIELD_PAPER_MAIN.png
+
+Recommended secondary/high-field figure:
+FIG_Q1_FBL_3D_B_FIELD_HIGH_FIELD_CLOSEUP.png
+
+Recommended vector-direction figure:
+FIG_Q1_FBL_3D_B_FIELD_DIRECTION.png
+
+Suggested manuscript wording:
+
+Three-dimensional electromagnetic simulation of the Q1 flux-bias line. The color scale represents the logarithm of the magnetic-field magnitude |B|, while black arrows indicate the local direction of the real component of the magnetic field. The high-field region is emphasized to resolve the spatial concentration of the magnetic field around the flux-bias structure.
+
+IMPORTANT:
+Do not identify the numerical cell attribute as the physical FBL conductor unless the attribute-to-geometry mapping has been independently verified from the original Gmsh/PALACE mesh.
