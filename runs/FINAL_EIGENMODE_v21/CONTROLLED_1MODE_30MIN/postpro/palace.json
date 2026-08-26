@@ -1,0 +1,16 @@
+{
+  "GitTag": "v0.17.0-194-g01f5d9bd1",
+  "LinearSolver": {
+    "TotalIts": 209,
+    "TotalSolves": 20
+  },
+  "Problem": {
+    "DegreesOfFreedom": 619898,
+    "MPISize": 1,
+    "MeshElements": 423223,
+    "MultigridDegreesOfFreedom": [
+      619898
+    ],
+    "OpenMPThreads": 1
+  }
+}
