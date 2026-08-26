@@ -1,0 +1,18 @@
+{
+  "number_of_PALACE_modes": 37,
+  "number_of_JJ_columns": 8,
+  "number_of_qubits": 4,
+  "number_of_electromagnetic_modes": 29,
+  "JC_basis_size": 33,
+  "Hamiltonian_Hermitian": true,
+  "Hermiticity_error": 0.0,
+  "Maximum_imaginary_JC_eigenvalue": 0.0,
+  "Q1_validation": {
+    "reference_mode": 9,
+    "reference_frequency_GHz": 6.832612991191,
+    "reference_Q1_participation": 0.999839704714449
+  },
+  "couplings_directly_supplied": 0,
+  "qubit_qubit_couplings_directly_supplied": 0,
+  "scientific_note": "PALACE EPR data identify junction participation but do not uniquely determine all off-diagonal JC coupling constants."
+}

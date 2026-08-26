@@ -1,0 +1,53 @@
+{
+  "device": "Four-qubit concentric-transmon chip",
+  "simulation": "PALACE v21 eigenmode simulation",
+  "number_of_eigenmodes": 37,
+  "number_of_qubits": 4,
+  "qubit_frequencies_GHz": {
+    "Q1": 6.832612991191,
+    "Q2": 6.652832452088,
+    "Q3": 7.168394141588,
+    "Q4": 5.821776500398
+  },
+  "qubit_modes": {
+    "Q1": 9,
+    "Q2": 7,
+    "Q3": 13,
+    "Q4": 4
+  },
+  "frequency_statistics_GHz": {
+    "mean": 6.618904021316251,
+    "std": 0.5727635751631724,
+    "minimum": 5.821776500398,
+    "maximum": 7.168394141588,
+    "span": 1.34661764119
+  },
+  "mode_localization": {
+    "Q1": 0.9999999999400258,
+    "Q2": 0.9999999999862941,
+    "Q3": 0.9999999999845676,
+    "Q4": 0.9999999999991738
+  },
+  "numerical_validation": {
+    "max_backward_error": 4.437066252497e-16,
+    "max_absolute_error": 626310.5535053,
+    "max_imaginary_frequency_GHz": 2.590643698851e-07
+  },
+  "derived_but_not_simulated": [
+    "pairwise qubit frequency detunings"
+  ],
+  "not_available_from_current_single_point_eigenmode": [
+    "C_sigma",
+    "E_C/h",
+    "E_J/h",
+    "E_J/E_C",
+    "qubit-qubit g_ij",
+    "qubit-resonator g_qr",
+    "flux dispersion",
+    "flux-line crosstalk",
+    "XY-drive coupling",
+    "Rabi rate",
+    "CZ gate fidelity",
+    "Chevron oscillation frequency"
+  ]
+}

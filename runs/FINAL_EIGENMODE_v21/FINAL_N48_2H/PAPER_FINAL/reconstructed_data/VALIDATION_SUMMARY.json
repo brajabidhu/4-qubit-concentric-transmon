@@ -1,0 +1,48 @@
+{
+  "eig_file": "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/FINAL_N48_2H/postpro/eig.csv",
+  "epr_file": "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/FINAL_N48_2H/postpro/port-EPR.csv",
+  "port_V_file": "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/FINAL_N48_2H/postpro/port-V.csv",
+  "port_I_file": "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/FINAL_N48_2H/postpro/port-I.csv",
+  "number_eigenmodes": 37,
+  "number_epr_modes": 37,
+  "number_common_modes": 37,
+  "primary_qubits": 4,
+  "unique_primary_modes": 4,
+  "max_absolute_error": 626310.5535053,
+  "max_backward_error": 4.437066252497e-16,
+  "max_imaginary_frequency_GHz": 2.590643698851e-07,
+  "primary_modes": [
+    {
+      "Qubit": "Q1",
+      "Mode": 9,
+      "Frequency_GHz": 6.832612991191,
+      "Q_factor": 2013737150.477,
+      "Dominant_JJ": "JJ2",
+      "Mode_Purity": 0.9999999999400258
+    },
+    {
+      "Qubit": "Q2",
+      "Mode": 7,
+      "Frequency_GHz": 6.652832452088,
+      "Q_factor": 178668853.6495,
+      "Dominant_JJ": "JJ3",
+      "Mode_Purity": 0.9999999999862941
+    },
+    {
+      "Qubit": "Q3",
+      "Mode": 13,
+      "Frequency_GHz": 7.168394141588,
+      "Q_factor": 1435468922.484,
+      "Dominant_JJ": "JJ5",
+      "Mode_Purity": 0.9999999999845676
+    },
+    {
+      "Qubit": "Q4",
+      "Mode": 4,
+      "Frequency_GHz": 5.821776500398,
+      "Q_factor": 1573986097.325,
+      "Dominant_JJ": "JJ7",
+      "Mode_Purity": 0.9999999999991738
+    }
+  ]
+}

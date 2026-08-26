@@ -1,0 +1,52 @@
+{
+  "number_eigenmodes": 37,
+  "number_epr_modes": 37,
+  "number_merged_modes": 37,
+  "number_qubits": 4,
+  "unique_primary_modes": 4,
+  "max_backward_error": 4.437066252497e-16,
+  "max_absolute_error": 626310.5535053,
+  "max_imaginary_frequency_GHz": 2.590643698851e-07,
+  "frequency_mean_GHz": 6.618904021316251,
+  "frequency_std_GHz": 0.5727635751631724,
+  "frequency_min_GHz": 5.821776500398,
+  "frequency_max_GHz": 7.168394141588,
+  "frequency_span_GHz": 1.34661764119,
+  "primary_modes": {
+    "Q1": {
+      "mode": 9,
+      "frequency_GHz": 6.832612991191,
+      "dominant_JJ": "JJ2",
+      "mode_purity": 0.9999999999400258,
+      "Q_factor": 2013737150.477
+    },
+    "Q2": {
+      "mode": 7,
+      "frequency_GHz": 6.652832452088,
+      "dominant_JJ": "JJ3",
+      "mode_purity": 0.9999999999862941,
+      "Q_factor": 178668853.6495
+    },
+    "Q3": {
+      "mode": 13,
+      "frequency_GHz": 7.168394141588,
+      "dominant_JJ": "JJ5",
+      "mode_purity": 0.9999999999845676,
+      "Q_factor": 1435468922.484
+    },
+    "Q4": {
+      "mode": 4,
+      "frequency_GHz": 5.821776500398,
+      "dominant_JJ": "JJ7",
+      "mode_purity": 0.9999999999991738,
+      "Q_factor": 1573986097.325
+    }
+  },
+  "checks": {
+    "all_modes_have_EPR": true,
+    "four_qubits_assigned": true,
+    "four_distinct_primary_modes": true,
+    "finite_primary_frequencies": true,
+    "finite_primary_Q": true
+  }
+}

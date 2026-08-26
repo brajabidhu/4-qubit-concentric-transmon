@@ -1,0 +1,59 @@
+{
+  "model": "multimode Jaynes-Cummings",
+  "units": "GHz",
+  "qubits": [
+    "Q1",
+    "Q2",
+    "Q3",
+    "Q4"
+  ],
+  "qubit_junction_groups": {
+    "Q1": [
+      "p[1]",
+      "p[2]"
+    ],
+    "Q2": [
+      "p[3]",
+      "p[4]"
+    ],
+    "Q3": [
+      "p[5]",
+      "p[6]"
+    ],
+    "Q4": [
+      "p[7]",
+      "p[8]"
+    ]
+  },
+  "primary_modes": {
+    "Q1": 9,
+    "Q2": 10,
+    "Q3": 11,
+    "Q4": 4
+  },
+  "qubit_frequencies_GHz": {
+    "Q1": 6.832612991191,
+    "Q2": 6.890922915515,
+    "Q3": 6.987460169349,
+    "Q4": 5.821776500398
+  },
+  "qubit_participation": {
+    "Q1": 0.999839704714449,
+    "Q2": 0.99977956318654,
+    "Q3": 0.9998410915782799,
+    "Q4": 0.999774783867459
+  },
+  "anharmonicities_GHz": {
+    "Q1": -0.2,
+    "Q2": -0.2,
+    "Q3": -0.2,
+    "Q4": -0.2
+  },
+  "number_of_PALACE_modes": 37,
+  "number_of_JC_basis_states": 33,
+  "couplings_GHz": {},
+  "qubit_qubit_couplings_GHz": {},
+  "coupling_status": "Only explicitly supplied couplings are inserted.",
+  "source_eig": "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/FINAL_N48_2H/postpro/eig.csv",
+  "source_epr": "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/FINAL_N48_2H/postpro/port-EPR.csv"
+}

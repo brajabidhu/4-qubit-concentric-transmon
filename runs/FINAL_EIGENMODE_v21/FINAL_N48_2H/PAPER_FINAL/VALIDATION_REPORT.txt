@@ -1,0 +1,20 @@
+                       Check  Status                                                           Detail
+             Eigenmode count    PASS                                              37 eigenmodes found
+             Unique mode IDs    PASS                                          PALACE mode identifiers
+          Finite frequencies    PASS                                      All frequency values finite
+           Eight JJ channels    PASS                                             JJ1-JJ8 EPR channels
+Q1 two-JJ physical-mode test    FAIL                                   PROVISIONAL_SINGLE_JJ_DOMINANT
+Q2 two-JJ physical-mode test    FAIL                                   PROVISIONAL_SINGLE_JJ_DOMINANT
+Q3 two-JJ physical-mode test    FAIL                                   PROVISIONAL_SINGLE_JJ_DOMINANT
+Q4 two-JJ physical-mode test    FAIL                                   PROVISIONAL_SINGLE_JJ_DOMINANT
+               Qubit-qubit g BLOCKED Requires avoided-crossing/bare-mode analysis; detuning is not 2g
+           Qubit-resonator g BLOCKED          Requires qubit-resonator hybridization/avoided crossing
+                    Total CΣ BLOCKED                    Requires electrostatic/capacitance extraction
+               Physical EC/h BLOCKED                           Requires total CΣ rather than CJ alone
+              Physical EJ/EC BLOCKED                                             Requires physical EC
+             Flux dispersion BLOCKED                                     Requires external-flux sweep
+              Flux crosstalk BLOCKED                         Requires flux-line excitation simulation
+           XY drive coupling BLOCKED                        Requires driven microwave/port simulation
+                   Rabi rate BLOCKED                              Requires calibrated drive amplitude
+         Chevron oscillation BLOCKED                          Requires time-domain two-qubit dynamics
+                 CZ fidelity BLOCKED                    Requires calibrated time-domain CZ simulation

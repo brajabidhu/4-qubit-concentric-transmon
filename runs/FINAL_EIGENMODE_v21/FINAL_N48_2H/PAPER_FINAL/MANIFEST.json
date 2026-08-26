@@ -1,0 +1,48 @@
+{
+  "project": "4-qubit concentric transmon",
+  "analysis": "PALACE publication-grade post-processing",
+  "input_directory": "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/FINAL_N48_2H/postpro",
+  "output_directory": "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/FINAL_N48_2H/PAPER_FINAL",
+  "qubit_JJ_mapping": {
+    "Q1": [
+      1,
+      2
+    ],
+    "Q2": [
+      3,
+      4
+    ],
+    "Q3": [
+      5,
+      6
+    ],
+    "Q4": [
+      7,
+      8
+    ]
+  },
+  "thresholds": {
+    "localized_threshold": 0.9,
+    "balanced_pair_threshold": 0.5,
+    "pair_EPR_threshold": 0.1,
+    "resonator_EPR_threshold": 0.001
+  },
+  "input_files": {
+    "eigenmode": "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/FINAL_N48_2H/postpro/eig.csv",
+    "EPR": "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/FINAL_N48_2H/postpro/port-EPR.csv",
+    "voltage": "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/FINAL_N48_2H/postpro/port-V.csv",
+    "current": "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/FINAL_N48_2H/postpro/port-I.csv",
+    "domain_energy": "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/FINAL_N48_2H/postpro/domain-E.csv",
+    "configuration": "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/FINAL_N48_2H/postpro/FINAL_N48_EIGENMODE_resolved.json"
+  },
+  "physics_safeguards": [
+    "Frequency detuning is not interpreted as 2g",
+    "Raw port-EPR is not automatically treated as normalized participation",
+    "Anharmonicity is not inferred from adjacent eigenmode spacing",
+    "Total C\u03a3 is not inferred from junction capacitance alone",
+    "Flux dispersion requires an explicit flux sweep",
+    "Flux crosstalk requires flux-line excitation",
+    "Rabi rate requires calibrated microwave drive",
+    "CZ fidelity requires time-domain two-qubit simulation"
+  ]
+}

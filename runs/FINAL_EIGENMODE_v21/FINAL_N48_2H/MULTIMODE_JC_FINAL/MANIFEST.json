@@ -1,0 +1,40 @@
+{
+  "source": {
+    "eig.csv": "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/FINAL_N48_2H/postpro/eig.csv",
+    "port-EPR.csv": "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/FINAL_N48_2H/postpro/port-EPR.csv"
+  },
+  "output": "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/FINAL_N48_2H/MULTIMODE_JC_FINAL",
+  "tables": [
+    "Table_Full_Chip_Mode_Classification.csv",
+    "Table_Full_37_Mode_Spectrum.csv",
+    "Table_JJ_EPR_Participation.csv",
+    "Table_Qubit_Parameters.csv",
+    "Table_Qubit_Parameters.tex",
+    "Table_Full_37_Mode_Spectrum.tex",
+    "Table_JJ_EPR_Participation.tex"
+  ],
+  "figures": [
+    "Figure_1_Full_Chip_Eigenmode_Spectrum.png",
+    "Figure_1_Full_Chip_Eigenmode_Spectrum.pdf",
+    "Figure_2_Qubit_Participation_vs_Frequency.png",
+    "Figure_2_Qubit_Participation_vs_Frequency.pdf",
+    "Figure_3_JJ_EPR_Heatmap.png",
+    "Figure_3_JJ_EPR_Heatmap.pdf",
+    "Figure_4_Multimode_JC_Spectrum.png",
+    "Figure_4_Multimode_JC_Spectrum.pdf",
+    "Figure_5_JC_Qubit_Character.png",
+    "Figure_5_JC_Qubit_Character.pdf",
+    "Figure_6_Multimode_JC_Hamiltonian.png",
+    "Figure_6_Multimode_JC_Hamiltonian.pdf"
+  ],
+  "model": [
+    "Multimode_JC_Model.json",
+    "Multimode_JC_Hamiltonian_GHz.csv",
+    "Multimode_JC_Hamiltonian_GHz.npy",
+    "Multimode_JC_Spectrum.csv",
+    "Multimode_JC_Hamiltonian.tex"
+  ],
+  "validation": [
+    "JC_VALIDATION.json"
+  ]
+}

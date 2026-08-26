@@ -1,0 +1,31 @@
+{
+  "file": "Multimode_JC_Hamiltonian_Paper.tex",
+  "model": "Multimode Jaynes-Cummings Hamiltonian",
+  "units": "H/h in GHz",
+  "qubits": [
+    "Q1",
+    "Q2",
+    "Q3",
+    "Q4"
+  ],
+  "JJ_grouping": {
+    "Q1": [
+      "JJ1",
+      "JJ2"
+    ],
+    "Q2": [
+      "JJ3",
+      "JJ4"
+    ],
+    "Q3": [
+      "JJ5",
+      "JJ6"
+    ],
+    "Q4": [
+      "JJ7",
+      "JJ8"
+    ]
+  },
+  "source": "PALACE v21 eigenmode/EPR analysis",
+  "coupling_note": "Off-diagonal g parameters require coupling extraction; they are not inferred solely from EPR participation."
+}

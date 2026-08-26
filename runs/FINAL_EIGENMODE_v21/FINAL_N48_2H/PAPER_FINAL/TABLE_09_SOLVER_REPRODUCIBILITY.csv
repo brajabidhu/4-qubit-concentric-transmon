@@ -1,0 +1,6 @@
+Parameter,Value,Unit
+PALACE version,v0.17.0-194-g01f5d9bd1,
+MPI processes,1,
+OpenMP threads,2,
+Total runtime,378.1,s
+Peak memory,,MB

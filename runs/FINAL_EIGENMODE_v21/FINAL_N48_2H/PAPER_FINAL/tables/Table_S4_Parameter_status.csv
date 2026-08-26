@@ -1,0 +1,17 @@
+Parameter,Status,Source,Value,Paper_use
+Qubit frequency f_q,AVAILABLE,PALACE eigenmode,See Table_1_Qubit_parameters.csv,YES
+Eight-JJ EPR participation,AVAILABLE,PALACE port-EPR.csv,See Table_2_JJ_participation.csv,YES
+Qubit-mode localization,AVAILABLE,Derived from EPR,See Table_3_Qubit_participation.csv,YES
+Qubit-qubit frequency detuning,DERIVED,Primary eigenmode frequencies,See Table_4_Qubit_detunings.csv,YES
+Total CΣ,NOT_AVAILABLE,Requires electrostatic capacitance extraction,NOT CALCULATED,NO — do not invent
+E_C/h,NOT_AVAILABLE,Requires physical CΣ,NOT CALCULATED,NO — do not invent
+E_J/h,NOT_AVAILABLE,Requires junction/critical-current information,NOT CALCULATED,NO — do not invent
+E_J/E_C,NOT_AVAILABLE,Requires physical E_J and E_C,NOT CALCULATED,NO — do not invent
+Qubit-qubit g_ij,NOT_AVAILABLE,Requires avoided-crossing / coupling extraction,NOT CALCULATED,NO — do not infer from detuning
+Qubit-resonator g_qr,NOT_AVAILABLE,Requires hybridization / avoided-crossing simulation,NOT CALCULATED,NO
+Flux dispersion df/dPhi,NOT_AVAILABLE,Requires flux-bias sweep,NOT CALCULATED,NO
+Flux-line crosstalk,NOT_AVAILABLE,Requires flux-line excitation simulation,NOT CALCULATED,NO
+XY-drive coupling,NOT_AVAILABLE,Requires driven microwave simulation,NOT CALCULATED,NO
+Rabi rate,NOT_AVAILABLE,Requires calibrated microwave amplitude,NOT CALCULATED,NO
+CZ gate fidelity,NOT_AVAILABLE,Requires time-domain driven simulation,NOT CALCULATED,NO
+Chevron oscillation frequency,NOT_AVAILABLE,Requires two-qubit time-domain dynamics,NOT CALCULATED,NO

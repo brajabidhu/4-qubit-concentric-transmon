@@ -1,0 +1,8 @@
+Parameter,Value,Unit,Basis
+JJ inductance,20.0,nH,PALACE lumped-port input
+JJ capacitance,10.0,fF,PALACE lumped-port input
+EJ/h per JJ,8.173075640339059,GHz,derived from LJ
+EC/h from CJ only,1.937022932465912,GHz,derived from CJ; NOT total CΣ
+EJ/EC from CJ only,4.219400557088082,dimensionless,diagnostic only
+Substrate relative permittivity,11.45,relative,PALACE material input
+Vacuum relative permittivity,1.0,relative,PALACE material input
