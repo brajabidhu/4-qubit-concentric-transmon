@@ -1,0 +1,12 @@
+{
+  "system": "Q1",
+  "mode": 9,
+  "field": "|E|",
+  "source": "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/FINAL_N48_2H/Q1_MODE9_FIELD_N5_FINAL/field_output/paraview/eigenmode/Cycle000001/proc000000.vtu",
+  "processed_vtk": "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/FINAL_N48_2H/Q1_MODE9_FIELD_N5_FINAL/PLOTS_3D/Q1_Mode9_Electric_Field_3D.vtk",
+  "minimum_E": 2.3947129079715523e-07,
+  "maximum_E": 255392240.0,
+  "mean_E": 834.0823974609375,
+  "median_E": 0.377699077129364,
+  "visualization_floor": 0.0005917189992032945
+}

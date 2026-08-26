@@ -1,0 +1,34 @@
+{
+  "campaign": "Q1_MODE9_FIELD_N5_FINAL",
+  "qubit": "Q1",
+  "junctions": [
+    "JJ1",
+    "JJ2"
+  ],
+  "known_mode": 9,
+  "known_frequency_GHz": 6.832612991,
+  "requested_modes": 3,
+  "target_GHz": 6.8326,
+  "target_upper_GHz": 7.5,
+  "jj1_participation": 0.006188726256049,
+  "jj2_participation": 0.9936509784584,
+  "q1_total_participation": 0.999839704714449,
+  "mesh": "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/quantum_chip_TARGET_GEOMETRY_v14_4_CONFORMAL_v21_PEC_CLEAN.msh",
+  "mesh_sha256": "a27cbbe5cb23e68619718c75dba29df38595eb57760abe43f11d10907b5d2b3f",
+  "configuration": "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/FINAL_N48_2H/Q1_MODE9_FIELD_N5_FINAL/config/Q1_MODE9_FIELD_N5_INPUT.json",
+  "field_output": "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/FINAL_N48_2H/Q1_MODE9_FIELD_N5_FINAL/field_output",
+  "palace_log": "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/FINAL_N48_2H/Q1_MODE9_FIELD_N5_FINAL/logs/PALACE_Q1_MODE9_FIELD_N5.log",
+  "start_time": "2026-08-22T14:06:34.694290",
+  "elapsed_minutes": 121.26108585993448,
+  "return_code": 0,
+  "spatial_files": [
+    "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/FINAL_N48_2H/Q1_MODE9_FIELD_N5_FINAL/field_output/paraview/eigenmode/eigenmode.pvd",
+    "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/FINAL_N48_2H/Q1_MODE9_FIELD_N5_FINAL/field_output/paraview/eigenmode_boundary/eigenmode_boundary.pvd",
+    "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/FINAL_N48_2H/Q1_MODE9_FIELD_N5_FINAL/field_output/paraview/eigenmode_boundary/Cycle000001/proc000000.vtu",
+    "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/FINAL_N48_2H/Q1_MODE9_FIELD_N5_FINAL/field_output/paraview/eigenmode_boundary/Cycle000001/data.pvtu",
+    "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/FINAL_N48_2H/Q1_MODE9_FIELD_N5_FINAL/field_output/paraview/eigenmode/Cycle000001/proc000000.vtu",
+    "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/FINAL_N48_2H/Q1_MODE9_FIELD_N5_FINAL/field_output/paraview/eigenmode/Cycle000001/data.pvtu",
+    "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/FINAL_N48_2H/Q1_MODE9_FIELD_N5_FINAL/field_output/paraview/eigenmode/Cycle000002/proc000000.vtu",
+    "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/FINAL_N48_2H/Q1_MODE9_FIELD_N5_FINAL/field_output/paraview/eigenmode/Cycle000002/data.pvtu"
+  ]
+}
