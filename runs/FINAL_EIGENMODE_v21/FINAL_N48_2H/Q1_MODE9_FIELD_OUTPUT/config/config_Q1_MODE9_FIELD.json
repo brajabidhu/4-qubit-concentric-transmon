@@ -1,0 +1,25 @@
+{
+  "GitTag": "v0.17.0-194-g01f5d9bd1",
+  "LinearSolver": {
+    "TotalIts": 1439,
+    "TotalSolves": 131
+  },
+  "Problem": {
+    "DegreesOfFreedom": 619898,
+    "MPISize": 1,
+    "MeshElements": 423223,
+    "MultigridDegreesOfFreedom": [
+      619898
+    ],
+    "OpenMPThreads": 2,
+    "Type": "Eigenmode",
+    "Output": "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/FINAL_N48_2H/Q1_MODE9_FIELD_OUTPUT/postpro",
+    "OutputFormats": {
+      "Paraview": true,
+      "GridFunction": true
+    }
+  },
+  "Solver": {
+    "Eigenmode": {}
+  }
+}

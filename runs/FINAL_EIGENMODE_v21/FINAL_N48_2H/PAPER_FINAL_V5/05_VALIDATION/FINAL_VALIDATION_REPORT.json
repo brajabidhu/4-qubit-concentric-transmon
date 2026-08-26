@@ -1,0 +1,19 @@
+{
+  "eig_csv": true,
+  "epr_csv": true,
+  "eigenmodes": 37,
+  "epr_channels": 8,
+  "primary_modes": 4,
+  "frequency_finite": true,
+  "Q_finite": true,
+  "EPR_finite": true,
+  "max_abs_Im_frequency_GHz": 2.590643698851e-07,
+  "max_abs_backward_error": 4.437066252497e-16,
+  "max_abs_absolute_error": 626310.5535053,
+  "minimum_Q": 20845431.70801,
+  "maximum_Q": 549454710519.6,
+  "pairwise_pairs": 6,
+  "palace_simulation_started": false,
+  "gds_modified": false,
+  "mesh_modified": false
+}

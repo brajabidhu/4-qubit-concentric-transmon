@@ -1,0 +1,14 @@
+Check,Status
+PALACE eig.csv available,PASS
+PALACE port-EPR.csv available,PASS
+37 eigenmodes loaded,PASS
+8 EPR channels loaded,PASS
+Mode index m correctly identified,PASS
+Eigenfrequency values finite,PASS
+Q values finite,PASS
+EPR values finite,PASS
+Four primary localized modes identified,PASS
+Pairwise detuning generated,PASS
+No PALACE simulation started,PASS
+No GDS geometry modified,PASS
+No mesh modified,PASS

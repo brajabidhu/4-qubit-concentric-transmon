@@ -1,0 +1,5 @@
+candidate,valid,return_code,config
+A_original_solver,True,0,/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/FINAL_N48_2H/Q1_MODE9_FIELD_EXPORT_CAMPAIGN/candidates/A_original_solver.json
+B_original_solver_Save1,True,0,/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/FINAL_N48_2H/Q1_MODE9_FIELD_EXPORT_CAMPAIGN/candidates/B_original_solver_Save1.json
+C_N9,True,0,/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/FINAL_N48_2H/Q1_MODE9_FIELD_EXPORT_CAMPAIGN/candidates/C_N9.json
+D_N9_Save1,True,0,/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/FINAL_N48_2H/Q1_MODE9_FIELD_EXPORT_CAMPAIGN/candidates/D_N9_Save1.json

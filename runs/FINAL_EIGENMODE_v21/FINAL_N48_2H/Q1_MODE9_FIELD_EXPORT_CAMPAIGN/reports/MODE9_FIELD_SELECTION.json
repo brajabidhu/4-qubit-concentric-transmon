@@ -1,0 +1,24 @@
+{
+  "target": {
+    "qubit": "Q1",
+    "junctions": [
+      "JJ1",
+      "JJ2"
+    ],
+    "PALACE_mode": 9,
+    "frequency_GHz": 6.832612991191
+  },
+  "EPR": {
+    "JJ1": 0.006188726256049,
+    "JJ2": 0.9936509784584,
+    "Q1_total": 0.999839704714449
+  },
+  "selected_candidate": "B_original_solver_Save1",
+  "selected_config": "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/FINAL_N48_2H/Q1_MODE9_FIELD_EXPORT_CAMPAIGN/candidates/B_original_solver_Save1.json",
+  "mesh": "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/quantum_chip_TARGET_GEOMETRY_v14_4_CONFORMAL_v21_PEC_CLEAN.msh",
+  "mesh_SHA256": "a27cbbe5cb23e68619718c75dba29df38595eb57760abe43f11d10907b5d2b3f",
+  "original_config": "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/FINAL_N48_2H/FINAL_N48_EIGENMODE.json",
+  "solve_started": false,
+  "mesh_modified": false,
+  "GDS_modified": false
+}
