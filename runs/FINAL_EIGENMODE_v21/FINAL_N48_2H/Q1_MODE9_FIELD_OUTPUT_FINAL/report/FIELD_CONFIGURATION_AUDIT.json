@@ -1,0 +1,23 @@
+{
+  "input_config": "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/FINAL_N48_2H/FINAL_N48_EIGENMODE.json",
+  "new_config": "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/FINAL_N48_2H/Q1_MODE9_FIELD_OUTPUT_FINAL/config/Q1_MODE9_FIELD_INPUT.json",
+  "mesh": "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/quantum_chip_TARGET_GEOMETRY_v14_4_CONFORMAL_v21_PEC_CLEAN.msh",
+  "mesh_sha256": "a27cbbe5cb23e68619718c75dba29df38595eb57760abe43f11d10907b5d2b3f",
+  "q1_mode": 9,
+  "q1_junctions": [
+    "JJ1",
+    "JJ2"
+  ],
+  "modified_sections": [
+    "Problem.Output",
+    "Problem.OutputFormats"
+  ],
+  "locked_sections": [
+    "Model",
+    "Domains",
+    "Boundaries",
+    "Solver"
+  ],
+  "mesh_modified": false,
+  "gds_modified": false
+}

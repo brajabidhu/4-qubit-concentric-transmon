@@ -1,0 +1,13 @@
+{
+  "campaign": "Q1 Readout Line + Resonator",
+  "N_modes": 3,
+  "Q1_reference_mode": 9,
+  "Q1_JJ1_EPR": 0.006188726256049,
+  "Q1_JJ2_EPR": 0.9936509784584,
+  "Q1_total_EPR": 0.999839704714449,
+  "readout_target_GHz": null,
+  "field_output": "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/FINAL_N48_2H/Q1_READOUT_RESONATOR_N3_FIELD_OUTPUT/postpro",
+  "paraview_requested": true,
+  "gridfunction_requested": true,
+  "note": "Numerical microwave coupling g must not be invented without an appropriate field normalization/coupling extraction."
+}

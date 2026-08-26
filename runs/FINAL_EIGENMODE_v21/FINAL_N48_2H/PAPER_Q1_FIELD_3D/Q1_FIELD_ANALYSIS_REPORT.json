@@ -1,0 +1,11 @@
+{
+  "PALACE_ROOT": "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21",
+  "POSTPRO": "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/FINAL_N48_2H/postpro",
+  "OUTPUT": "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/FINAL_N48_2H/PAPER_Q1_FIELD_3D",
+  "Q1_physical_group": "JJ1 + JJ2",
+  "Q1_selected_mode": 9,
+  "Q1_total_EPR": 0.999839704714449,
+  "spatial_field_files_found": [],
+  "true_3D_field_available": false,
+  "warning": "A true spatial 3D E-field cannot be reconstructed from scalar EPR/eigenmode CSV files alone."
+}

@@ -1,0 +1,29 @@
+{
+  "campaign": "Q1-Q2 Fixed Capacitive Coupler",
+  "analysis": "Electric Field and Capacitive Matrix",
+  "N_modes": 3,
+  "target_GHz": 5.45,
+  "tolerance": 1e-08,
+  "Q1_center_mm": [
+    -3.0,
+    0.0
+  ],
+  "Q2_center_mm": [
+    -1.0,
+    0.0
+  ],
+  "coupler_center_mm": [
+    -2.0,
+    0.0
+  ],
+  "coupler_x_half_width_mm": 0.65,
+  "coupler_y_half_width_mm": 0.75,
+  "mesh": "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/quantum_chip_TARGET_GEOMETRY_v14_4_CONFORMAL_v21_PEC_CLEAN.msh",
+  "mesh_sha256": "a27cbbe5cb23e68619718c75dba29df38595eb57760abe43f11d10907b5d2b3f",
+  "output": "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/FINAL_N48_2H/Q1_Q2_FIXED_CAPACITIVE_COUPLER_N3",
+  "field_output": "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/FINAL_N48_2H/Q1_Q2_FIXED_CAPACITIVE_COUPLER_N3/postpro",
+  "configuration": "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/FINAL_N48_2H/Q1_Q2_FIXED_CAPACITIVE_COUPLER_N3/config/Q1_Q2_COUPLER_N3_INPUT.json",
+  "validation_log": "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/FINAL_N48_2H/Q1_Q2_FIXED_CAPACITIVE_COUPLER_N3/logs/validation_N3.log",
+  "PALACE_log": "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/FINAL_N48_2H/Q1_Q2_FIXED_CAPACITIVE_COUPLER_N3/logs/PALACE_Q1_Q2_COUPLER_N3.log",
+  "elapsed_minutes": 210.3124414483706
+}

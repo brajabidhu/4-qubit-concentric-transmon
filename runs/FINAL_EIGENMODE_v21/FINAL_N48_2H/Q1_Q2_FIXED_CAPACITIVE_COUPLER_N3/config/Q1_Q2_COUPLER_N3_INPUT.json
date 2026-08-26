@@ -1,0 +1,151 @@
+{
+  "Problem": {
+    "Type": "Eigenmode",
+    "Verbose": 2,
+    "Output": "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/FINAL_N48_2H/Q1_Q2_FIXED_CAPACITIVE_COUPLER_N3/postpro",
+    "OutputFormats": {
+      "Paraview": true,
+      "GridFunction": true
+    }
+  },
+  "Model": {
+    "Mesh": "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/quantum_chip_TARGET_GEOMETRY_v14_4_CONFORMAL_v21_PEC_CLEAN.msh",
+    "L0": 0.001
+  },
+  "Domains": {
+    "Materials": [
+      {
+        "Attributes": [
+          100
+        ],
+        "Permittivity": 11.45
+      },
+      {
+        "Attributes": [
+          101
+        ],
+        "Permittivity": 1.0
+      }
+    ],
+    "Postprocessing": {
+      "Energy": [
+        {
+          "Index": 1,
+          "Attributes": [
+            100
+          ]
+        },
+        {
+          "Index": 2,
+          "Attributes": [
+            101
+          ]
+        }
+      ]
+    }
+  },
+  "Boundaries": {
+    "PEC": {
+      "Attributes": [
+        200
+      ]
+    },
+    "LumpedPort": [
+      {
+        "Index": 1,
+        "Attributes": [
+          10
+        ],
+        "Direction": "+X",
+        "R": 0.0,
+        "L": 2e-08,
+        "C": 1e-14,
+        "Excitation": false
+      },
+      {
+        "Index": 2,
+        "Attributes": [
+          11
+        ],
+        "Direction": "+X",
+        "R": 0.0,
+        "L": 2e-08,
+        "C": 1e-14,
+        "Excitation": false
+      },
+      {
+        "Index": 3,
+        "Attributes": [
+          12
+        ],
+        "Direction": "+X",
+        "R": 0.0,
+        "L": 2e-08,
+        "C": 1e-14,
+        "Excitation": false
+      },
+      {
+        "Index": 4,
+        "Attributes": [
+          13
+        ],
+        "Direction": "+X",
+        "R": 0.0,
+        "L": 2e-08,
+        "C": 1e-14,
+        "Excitation": false
+      },
+      {
+        "Index": 5,
+        "Attributes": [
+          14
+        ],
+        "Direction": "+X",
+        "R": 0.0,
+        "L": 2e-08,
+        "C": 1e-14,
+        "Excitation": false
+      },
+      {
+        "Index": 6,
+        "Attributes": [
+          15
+        ],
+        "Direction": "+X",
+        "R": 0.0,
+        "L": 2e-08,
+        "C": 1e-14,
+        "Excitation": false
+      },
+      {
+        "Index": 7,
+        "Attributes": [
+          16
+        ],
+        "Direction": "+X",
+        "R": 0.0,
+        "L": 2e-08,
+        "C": 1e-14,
+        "Excitation": false
+      },
+      {
+        "Index": 8,
+        "Attributes": [
+          17
+        ],
+        "Direction": "+X",
+        "R": 0.0,
+        "L": 2e-08,
+        "C": 1e-14,
+        "Excitation": false
+      }
+    ]
+  },
+  "Solver": {
+    "Eigenmode": {
+      "N": 3,
+      "Target": 5.45,
+      "Tol": 1e-08
+    }
+  }
+}

@@ -1,0 +1,35 @@
+  Activating new project at `/tmp/jl_R10zdV`
+   Resolving package versions...
+    Updating `/tmp/jl_R10zdV/Project.toml`
+  [682c06a0] + JSON v1.7.1
+  [7d188eb4] + JSONSchema v1.5.0
+    Updating `/tmp/jl_R10zdV/Manifest.toml`
+  [682c06a0] + JSON v1.7.1
+  [7d188eb4] + JSONSchema v1.5.0
+  [69de0a69] + Parsers v2.8.7
+  [aea7be01] + PrecompileTools v1.3.4
+  [21216c6a] + Preferences v1.5.2
+  [ec057cc2] + StructUtils v2.8.5
+  [5c2747f8] + URIs v1.7.0
+  [0dad84c5] + ArgTools v1.1.2
+  [56f22d72] + Artifacts v1.11.0
+  [ade2ca70] + Dates v1.11.0
+  [f43a241f] + Downloads v1.7.0
+  [7b1f6079] + FileWatching v1.11.0
+  [b27032c2] + LibCURL v0.6.4
+  [8f399da3] + Libdl v1.11.0
+  [56ddb016] + Logging v1.11.0
+  [ca575930] + NetworkOptions v1.3.0
+  [de0858da] + Printf v1.11.0
+  [9a3f8284] + Random v1.11.0
+  [ea8e919c] + SHA v0.7.0
+  [fa267f1f] + TOML v1.0.3
+  [cf7118a7] + UUIDs v1.11.0
+  [4ec0a83e] + Unicode v1.11.0
+  [deac9b47] + LibCURL_jll v8.15.0+0
+  [29816b5a] + LibSSH2_jll v1.11.3+1
+  [14a3606d] + MozillaCACerts_jll v2025.11.4
+  [458c3c95] + OpenSSL_jll v3.5.4+0
+  [83775a58] + Zlib_jll v1.3.1+2
+  [8e850ede] + nghttp2_jll v1.64.0+1
+Dry-run: No errors detected in configuration file "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/FINAL_N48_2H/Q1_READOUT_RESONATOR_N3_FIELD_OUTPUT/config/Q1_READOUT_RESONATOR_N3_INPUT.json"

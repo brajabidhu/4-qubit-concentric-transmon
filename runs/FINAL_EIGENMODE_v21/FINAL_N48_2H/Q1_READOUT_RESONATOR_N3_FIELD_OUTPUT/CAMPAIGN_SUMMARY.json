@@ -1,0 +1,17 @@
+{
+  "campaign": "Q1 Readout Line + Resonator",
+  "N_modes": 3,
+  "target_GHz": 5.45,
+  "tolerance": 1e-08,
+  "mesh": "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/quantum_chip_TARGET_GEOMETRY_v14_4_CONFORMAL_v21_PEC_CLEAN.msh",
+  "mesh_sha256": "a27cbbe5cb23e68619718c75dba29df38595eb57760abe43f11d10907b5d2b3f",
+  "output": "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/FINAL_N48_2H/Q1_READOUT_RESONATOR_N3_FIELD_OUTPUT",
+  "field_output": "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/FINAL_N48_2H/Q1_READOUT_RESONATOR_N3_FIELD_OUTPUT/postpro",
+  "config": "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/FINAL_N48_2H/Q1_READOUT_RESONATOR_N3_FIELD_OUTPUT/config/Q1_READOUT_RESONATOR_N3_INPUT.json",
+  "validation_log": "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/FINAL_N48_2H/Q1_READOUT_RESONATOR_N3_FIELD_OUTPUT/logs/validation_N3.log",
+  "PALACE_log": "/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v21/FINAL_N48_2H/Q1_READOUT_RESONATOR_N3_FIELD_OUTPUT/logs/PALACE_Q1_READOUT_RESONATOR_N3.log",
+  "elapsed_minutes": 195.76363994677862,
+  "Q1_reference_mode": 9,
+  "Q1_total_EPR": 0.999839704714449,
+  "readout_target_GHz": null
+}
