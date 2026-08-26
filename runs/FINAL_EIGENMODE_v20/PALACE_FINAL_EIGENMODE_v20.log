@@ -1,0 +1,30 @@
+
+_____________     _______
+_____   __   \____ __   /____ ____________
+____   /_/  /  __ ` /  /  __ ` /  ___/  _ \
+___   _____/  /_/  /  /  /_/  /  /__/  ___/
+  /__/     \___,__/__/\___,__/\_____\_____/
+
+
+[38;2;255;255;000m--> Warning![0m
+Output folder is not empty; program will overwrite content! (/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v20/postpro)
+Git changeset ID: v0.17.0-194-g01f5d9bd1
+Running with 1 MPI process, 1 OpenMP thread
+Device configuration: omp,cpu
+Memory configuration: host-std
+libCEED backend: /cpu/self/xsmm/blocked
+
+
+
+MFEM abort: Gmsh file : vertices indices are not unique
+ ... in function: void mfem::Mesh::ReadGmshMesh(std::istream&, int&, int&)
+ ... in file: /content/Palace_build_tmp/build/extern/mfem/mesh/mesh_readers.cpp:1628
+
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 0 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------

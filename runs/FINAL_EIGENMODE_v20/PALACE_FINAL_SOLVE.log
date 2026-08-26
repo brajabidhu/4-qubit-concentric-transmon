@@ -1,0 +1,63 @@
+
+_____________     _______
+_____   __   \____ __   /____ ____________
+____   /_/  /  __ ` /  /  __ ` /  ___/  _ \
+___   _____/  /_/  /  /  /_/  /  /__/  ___/
+  /__/     \___,__/__/\___,__/\_____\_____/
+
+
+[38;2;255;255;000m--> Warning![0m
+Output folder is not empty; program will overwrite content! (/content/drive/MyDrive/Palace6/meshesv4/runs/FINAL_EIGENMODE_v20/postpro)
+Git changeset ID: v0.17.0-194-g01f5d9bd1
+Running with 1 MPI process, 1 OpenMP thread
+Device configuration: omp,cpu
+Memory configuration: host-std
+libCEED backend: /cpu/self/xsmm/blocked
+
+
+[38;2;255;255;000m--> Warning![0m
+12264 mesh faces with no associated boundary element exist on the domain boundary!
+
+Added 12264 boundary elements for exterior boundaries to the mesh
+Added 45687 boundary elements for material interfaces to the mesh
+
+Characteristic length and time scales:
+ Lc = 1.000e-03 m, tc = 3.336e-03 ns
+Finished partitioning mesh into 1 subdomain
+
+Mesh curvature order: 1
+Mesh bounding box:
+ (Xmin, Ymin, Zmin) = (-5.000e-03, -5.000e-03, -5.000e-04) m
+ (Xmax, Ymax, Zmax) = (+5.000e-03, +5.000e-03, +2.000e-03) m
+
+Parallel Mesh Stats:
+
+                minimum     average     maximum       total
+ vertices         64575       64575       64575       64575
+ edges           418497      418497      418497      418497
+ faces           701714      701714      701714      701714
+ elements        347791      347791      347791      347791
+ neighbors            0           0           0
+
+            minimum     maximum
+ h                0    0.405074
+ kappa      1.00977         inf
+[0]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[0]PETSC ERROR: Missing or incorrect user input
+[0]PETSC ERROR: The inner product is not well defined: nonzero imaginary part -nan.
+[0]PETSC ERROR: WARNING! There are unused option(s) set! Could be the program crashed before usage or a spelling mistake, etc!
+[0]PETSC ERROR:   Option left: name:-eps_monitor (no value) source: code
+[0]PETSC ERROR: See https://petsc.org/release/faq/ for trouble shooting.
+[0]PETSC ERROR: PETSc Release Version 3.24.3, unknown
+[0]PETSC ERROR: /content/drive/MyDrive/Palace6/build/bin/palace-x86_64.bin with 1 MPI process(es) and PETSC_ARCH  on 67ffe9cfaf96 by Unknown Tue Aug 18 17:51:57 2026
+[0]PETSC ERROR: Configure options: COPTFLAGS=" -O3 -DNDEBUG" CXXOPTFLAGS=" -O3 -DNDEBUG" --prefix=/content/Palace_build_tmp/build --with-cc=/usr/bin/cc --with-cxx=/usr/bin/c++ --with-fc=0 --with-scalar-type=complex --with-precision=double --with-clanguage=c --with-x=0 --with-debugging=0 --with-shared-libraries=0 --known-64-bit-blas-indices=0 --with-openmp --with-mpi-lib="[/usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so,/usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so]" --with-mpi-include="[/usr/lib/x86_64-linux-gnu/openmpi/include,/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi]" --with-blaslapack-lib="[/usr/lib/x86_64-linux-gnu/libopenblas.so,-lm]" --with-blaslapack-include="[/usr/include/x86_64-linux-gnu]"
+[0]PETSC ERROR: #1 BV_SafeSqrt() at /content/Palace_build_tmp/build/extern/slepc/include/slepc/private/bvimpl.h:131
+[0]PETSC ERROR: #2 BV_SquareRoot_Default() at /content/Palace_build_tmp/build/extern/slepc/include/slepc/private/bvimpl.h:393
+[0]PETSC ERROR: #3 BVOrthogonalizeCGS1() at /content/Palace_build_tmp/build/extern/slepc/src/sys/classes/bv/interface/bvorthog.c:101
+[0]PETSC ERROR: #4 BVOrthogonalizeGS() at /content/Palace_build_tmp/build/extern/slepc/src/sys/classes/bv/interface/bvorthog.c:177
+[0]PETSC ERROR: #5 BVOrthonormalizeColumn() at /content/Palace_build_tmp/build/extern/slepc/src/sys/classes/bv/interface/bvorthog.c:401
+[0]PETSC ERROR: #6 BVMatLanczos() at /content/Palace_build_tmp/build/extern/slepc/src/sys/classes/bv/interface/bvkrylov.c:201
+[0]PETSC ERROR: #7 EPSSolve_KrylovSchur_Default() at /content/Palace_build_tmp/build/extern/slepc/src/eps/impls/krylov/krylovschur/krylovschur.c:262
+[0]PETSC ERROR: #8 EPSSolve() at /content/Palace_build_tmp/build/extern/slepc/src/eps/interface/epssolve.c:162
+[0]PETSC ERROR: #9 GetMaxSingularValue() at /content/Palace_build_tmp/source/palace/linalg/slepc.cpp:275
+[67ffe9cfaf96:42048] [[31778,0],0] ORTE_ERROR_LOG: Out of resource in file ../../../orte/util/show_help.c at line 507
