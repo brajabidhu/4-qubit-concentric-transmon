@@ -1,0 +1,655 @@
+>> /content/palace_runtime/bin/palace-x86_64.bin /content/drive/MyDrive/PalaceAutomation2A/full_chip_transmon_capacitance/full19_terminal_clean_run/palace_full19.json
+
+_____________     _______
+_____   __   \____ __   /____ ____________
+____   /_/  /  __ ` /  /  __ ` /  ___/  _ \
+___   _____/  /_/  /  /  /_/  /  /__/  ___/
+  /__/     \___,__/__/\___,__/\_____\_____/
+
+Git changeset ID: v0.17.0-194-g01f5d9bd1
+Running with 1 MPI process, 4 OpenMP threads
+Device configuration: omp,cpu
+Memory configuration: host-std
+libCEED backend: /cpu/self/xsmm/blocked
+
+Added 7305 boundary elements for material interfaces to the mesh
+
+Characteristic length and time scales:
+ Lc = 1.200e-02 m, tc = 4.003e-02 ns
+Finished partitioning mesh into 1 subdomain
+
+Mesh curvature order: 1
+Mesh bounding box:
+ (Xmin, Ymin, Zmin) = (-6.000e-03, -6.000e-03, -7.500e-04) m
+ (Xmax, Ymax, Zmax) = (+6.000e-03, +6.000e-03, +7.500e-04) m
+
+Parallel Mesh Stats:
+
+                minimum     average     maximum       total
+ vertices        287177      287177      287177      287177
+ edges          1901142     1901142     1901142     1901142
+ faces          3185653     3185653     3185653     3185653
+ elements       1571687     1571687     1571687     1571687
+ neighbors            0           0           0
+
+            minimum     maximum
+ h      4.43688e-05   0.0187547
+ kappa            1     35751.5
+
+Estimated current per-rank memory usage is: Min. 1.0G, Max. 1.0G, Avg. 1.0G, Total 1.0G
+Estimated current per-node memory usage is: Min. 1.0G, Max. 1.0G, Avg. 1.0G, Total 1.0G
+
+Configuring Dirichlet BC at attributes:
+ 22-27, 1-19
+
+Assembling system matrices, number of global unknowns:
+ H1 (p = 2): 2188319, ND (p = 2): 10173590, RT (p = 2): 14272020
+ Operator assembly level: Partial
+ Mesh geometries:
+  Tetrahedron: P = 20, Q = 14 (quadrature order = 4)
+
+Assembling multigrid hierarchy:
+ Level 0 (p = 1): 287177 unknowns
+ Level 1 (p = 2): 2188319 unknowns
+
+Computing electrostatic fields for 19 terminal boundaries
+
+It 1/19: Index = 1 (elapsed time = 2.91e-07 s)
+
+  Residual norms for PCG solve
+  0 KSP residual norm ||r||_B = 5.725756e+01
+  1 KSP residual norm ||r||_B = 5.640297e+00
+  2 KSP residual norm ||r||_B = 7.510953e-01
+  3 KSP residual norm ||r||_B = 2.546059e-01
+  4 KSP residual norm ||r||_B = 1.033175e-01
+  5 KSP residual norm ||r||_B = 5.699136e-02
+  6 KSP residual norm ||r||_B = 3.890869e-02
+  7 KSP residual norm ||r||_B = 2.473281e-02
+  8 KSP residual norm ||r||_B = 1.488759e-02
+  9 KSP residual norm ||r||_B = 1.052802e-02
+ 10 KSP residual norm ||r||_B = 8.145587e-03
+ 11 KSP residual norm ||r||_B = 5.407569e-03
+ 12 KSP residual norm ||r||_B = 3.513580e-03
+ 13 KSP residual norm ||r||_B = 2.554930e-03
+ 14 KSP residual norm ||r||_B = 1.611344e-03
+ 15 KSP residual norm ||r||_B = 9.998326e-04
+ 16 KSP residual norm ||r||_B = 6.522251e-04
+ 17 KSP residual norm ||r||_B = 4.759355e-04
+ 18 KSP residual norm ||r||_B = 3.461481e-04
+ 19 KSP residual norm ||r||_B = 2.170427e-04
+ 20 KSP residual norm ||r||_B = 1.218392e-04
+ 21 KSP residual norm ||r||_B = 7.054037e-05
+ 22 KSP residual norm ||r||_B = 4.157575e-05
+ 23 KSP residual norm ||r||_B = 2.403845e-05
+ 24 KSP residual norm ||r||_B = 1.764271e-05
+ 25 KSP residual norm ||r||_B = 1.456740e-05
+ 26 KSP residual norm ||r||_B = 9.770602e-06
+ 27 KSP residual norm ||r||_B = 6.599860e-06
+ 28 KSP residual norm ||r||_B = 5.236275e-06
+ 29 KSP residual norm ||r||_B = 3.468932e-06
+PCG solver converged in 29 iterations (avg. reduction factor: 5.240e-01)
+ Sol. ||V|| = 1.008315e+03 (||RHS|| = 4.810972e+02)
+ Field energy E = 3.848e-09 J
+
+ Wrote fields to disk (Paraview) for source 1
+ Updating solution error estimates
+
+It 2/19: Index = 2 (elapsed time = 1.92e+03 s)
+
+  Residual norms for PCG solve
+  0 KSP residual norm ||r||_B = 1.568420e+00
+  1 KSP residual norm ||r||_B = 2.006561e-01
+  2 KSP residual norm ||r||_B = 3.051780e-02
+  3 KSP residual norm ||r||_B = 4.239696e-03
+  4 KSP residual norm ||r||_B = 5.837833e-04
+  5 KSP residual norm ||r||_B = 7.234230e-05
+  6 KSP residual norm ||r||_B = 1.007636e-05
+  7 KSP residual norm ||r||_B = 1.603112e-06
+  8 KSP residual norm ||r||_B = 2.776312e-07
+  9 KSP residual norm ||r||_B = 4.726125e-08
+PCG solver converged in 9 iterations (avg. reduction factor: 1.082e-01)
+ Sol. ||V|| = 3.787093e+01 (||RHS|| = 2.332502e+01)
+ Field energy E = 1.295e-11 J
+
+ Wrote fields to disk (Paraview) for source 2
+ Updating solution error estimates
+
+It 3/19: Index = 3 (elapsed time = 2.19e+03 s)
+
+  Residual norms for PCG solve
+  0 KSP residual norm ||r||_B = 1.598376e+00
+  1 KSP residual norm ||r||_B = 2.012490e-01
+  2 KSP residual norm ||r||_B = 3.261936e-02
+  3 KSP residual norm ||r||_B = 6.119192e-03
+  4 KSP residual norm ||r||_B = 9.116108e-04
+  5 KSP residual norm ||r||_B = 1.206404e-04
+  6 KSP residual norm ||r||_B = 1.885739e-05
+  7 KSP residual norm ||r||_B = 3.179742e-06
+  8 KSP residual norm ||r||_B = 4.835465e-07
+  9 KSP residual norm ||r||_B = 8.641548e-08
+PCG solver converged in 9 iterations (avg. reduction factor: 1.158e-01)
+ Sol. ||V|| = 3.864654e+01 (||RHS|| = 2.321754e+01)
+ Field energy E = 1.256e-11 J
+
+ Wrote fields to disk (Paraview) for source 3
+ Updating solution error estimates
+
+It 4/19: Index = 4 (elapsed time = 2.45e+03 s)
+
+  Residual norms for PCG solve
+  0 KSP residual norm ||r||_B = 3.146670e+00
+  1 KSP residual norm ||r||_B = 2.409119e-01
+  2 KSP residual norm ||r||_B = 2.140572e-02
+  3 KSP residual norm ||r||_B = 2.999553e-03
+  4 KSP residual norm ||r||_B = 4.676326e-04
+  5 KSP residual norm ||r||_B = 6.428056e-05
+  6 KSP residual norm ||r||_B = 8.358937e-06
+  7 KSP residual norm ||r||_B = 1.278436e-06
+  8 KSP residual norm ||r||_B = 1.838222e-07
+PCG solver converged in 8 iterations (avg. reduction factor: 9.063e-02)
+ Sol. ||V|| = 5.665088e+01 (||RHS|| = 4.058654e+01)
+ Field energy E = 8.494e-11 J
+ Updating solution error estimates
+
+It 5/19: Index = 5 (elapsed time = 2.56e+03 s)
+
+  Residual norms for PCG solve
+  0 KSP residual norm ||r||_B = 2.887421e+00
+  1 KSP residual norm ||r||_B = 2.375246e-01
+  2 KSP residual norm ||r||_B = 1.222183e-01
+  3 KSP residual norm ||r||_B = 7.782355e-02
+  4 KSP residual norm ||r||_B = 4.542504e-02
+  5 KSP residual norm ||r||_B = 2.045655e-02
+  6 KSP residual norm ||r||_B = 1.018448e-02
+  7 KSP residual norm ||r||_B = 7.611359e-03
+  8 KSP residual norm ||r||_B = 4.990672e-03
+  9 KSP residual norm ||r||_B = 1.941935e-03
+ 10 KSP residual norm ||r||_B = 1.111459e-03
+ 11 KSP residual norm ||r||_B = 7.082537e-04
+ 12 KSP residual norm ||r||_B = 4.480167e-04
+ 13 KSP residual norm ||r||_B = 2.801342e-04
+ 14 KSP residual norm ||r||_B = 1.731472e-04
+ 15 KSP residual norm ||r||_B = 8.547200e-05
+ 16 KSP residual norm ||r||_B = 4.406930e-05
+ 17 KSP residual norm ||r||_B = 2.128671e-05
+ 18 KSP residual norm ||r||_B = 1.142467e-05
+ 19 KSP residual norm ||r||_B = 4.658240e-06
+ 20 KSP residual norm ||r||_B = 2.052042e-06
+ 21 KSP residual norm ||r||_B = 1.426167e-06
+ 22 KSP residual norm ||r||_B = 1.328913e-06
+ 23 KSP residual norm ||r||_B = 9.680054e-07
+ 24 KSP residual norm ||r||_B = 3.561671e-07
+ 25 KSP residual norm ||r||_B = 2.395730e-07
+ 26 KSP residual norm ||r||_B = 1.963176e-07
+ 27 KSP residual norm ||r||_B = 1.195693e-07
+PCG solver converged in 27 iterations (avg. reduction factor: 5.017e-01)
+ Sol. ||V|| = 1.851342e+01 (||RHS|| = 1.811783e+01)
+ Field energy E = 8.951e-11 J
+ Updating solution error estimates
+
+It 6/19: Index = 6 (elapsed time = 3.60e+03 s)
+
+  Residual norms for PCG solve
+  0 KSP residual norm ||r||_B = 5.025625e+00
+  1 KSP residual norm ||r||_B = 2.754409e-01
+  2 KSP residual norm ||r||_B = 1.026734e-01
+  3 KSP residual norm ||r||_B = 5.353039e-02
+  4 KSP residual norm ||r||_B = 2.807975e-02
+  5 KSP residual norm ||r||_B = 1.952647e-02
+  6 KSP residual norm ||r||_B = 2.028663e-02
+  7 KSP residual norm ||r||_B = 1.363131e-02
+  8 KSP residual norm ||r||_B = 9.197221e-03
+  9 KSP residual norm ||r||_B = 4.810443e-03
+ 10 KSP residual norm ||r||_B = 2.534772e-03
+ 11 KSP residual norm ||r||_B = 1.470296e-03
+ 12 KSP residual norm ||r||_B = 9.501487e-04
+ 13 KSP residual norm ||r||_B = 4.437780e-04
+ 14 KSP residual norm ||r||_B = 2.156422e-04
+ 15 KSP residual norm ||r||_B = 6.057209e-05
+ 16 KSP residual norm ||r||_B = 2.142716e-05
+ 17 KSP residual norm ||r||_B = 1.183758e-05
+ 18 KSP residual norm ||r||_B = 6.834194e-06
+ 19 KSP residual norm ||r||_B = 2.959881e-06
+ 20 KSP residual norm ||r||_B = 1.406522e-06
+ 21 KSP residual norm ||r||_B = 7.299757e-07
+ 22 KSP residual norm ||r||_B = 4.729851e-07
+ 23 KSP residual norm ||r||_B = 2.744478e-07
+ 24 KSP residual norm ||r||_B = 2.293910e-07
+ 25 KSP residual norm ||r||_B = 1.365966e-07
+PCG solver converged in 25 iterations (avg. reduction factor: 4.766e-01)
+ Sol. ||V|| = 1.786501e+01 (||RHS|| = 3.846523e+01)
+ Field energy E = 2.763e-10 J
+ Updating solution error estimates
+
+It 7/19: Index = 7 (elapsed time = 4.94e+03 s)
+
+  Residual norms for PCG solve
+  0 KSP residual norm ||r||_B = 1.646866e+00
+  1 KSP residual norm ||r||_B = 3.269008e-01
+  2 KSP residual norm ||r||_B = 7.581498e-02
+  3 KSP residual norm ||r||_B = 3.472668e-02
+  4 KSP residual norm ||r||_B = 1.628371e-02
+  5 KSP residual norm ||r||_B = 9.365049e-03
+  6 KSP residual norm ||r||_B = 7.043932e-03
+  7 KSP residual norm ||r||_B = 5.286816e-03
+  8 KSP residual norm ||r||_B = 4.479795e-03
+  9 KSP residual norm ||r||_B = 3.078566e-03
+ 10 KSP residual norm ||r||_B = 1.886330e-03
+ 11 KSP residual norm ||r||_B = 1.047884e-03
+ 12 KSP residual norm ||r||_B = 4.256787e-04
+ 13 KSP residual norm ||r||_B = 2.686680e-04
+ 14 KSP residual norm ||r||_B = 1.912218e-04
+ 15 KSP residual norm ||r||_B = 1.270485e-04
+ 16 KSP residual norm ||r||_B = 9.324924e-05
+ 17 KSP residual norm ||r||_B = 5.431954e-05
+ 18 KSP residual norm ||r||_B = 3.558783e-05
+ 19 KSP residual norm ||r||_B = 2.341257e-05
+ 20 KSP residual norm ||r||_B = 1.564332e-05
+ 21 KSP residual norm ||r||_B = 1.117899e-05
+ 22 KSP residual norm ||r||_B = 8.414272e-06
+ 23 KSP residual norm ||r||_B = 5.269055e-06
+ 24 KSP residual norm ||r||_B = 3.935717e-06
+ 25 KSP residual norm ||r||_B = 2.972276e-06
+ 26 KSP residual norm ||r||_B = 2.077607e-06
+ 27 KSP residual norm ||r||_B = 1.018095e-06
+ 28 KSP residual norm ||r||_B = 5.233893e-07
+ 29 KSP residual norm ||r||_B = 3.138027e-07
+ 30 KSP residual norm ||r||_B = 1.595575e-07
+PCG solver converged in 30 iterations (avg. reduction factor: 5.330e-01)
+ Sol. ||V|| = 3.117882e+01 (||RHS|| = 2.530289e+01)
+ Field energy E = 2.464e-11 J
+ Updating solution error estimates
+
+It 8/19: Index = 8 (elapsed time = 6.28e+03 s)
+
+  Residual norms for PCG solve
+  0 KSP residual norm ||r||_B = 1.620451e+00
+  1 KSP residual norm ||r||_B = 2.676171e-01
+  2 KSP residual norm ||r||_B = 4.932418e-02
+  3 KSP residual norm ||r||_B = 1.570346e-02
+  4 KSP residual norm ||r||_B = 9.624095e-03
+  5 KSP residual norm ||r||_B = 5.864884e-03
+  6 KSP residual norm ||r||_B = 3.468895e-03
+  7 KSP residual norm ||r||_B = 2.911906e-03
+  8 KSP residual norm ||r||_B = 2.482316e-03
+  9 KSP residual norm ||r||_B = 1.953206e-03
+ 10 KSP residual norm ||r||_B = 8.758188e-04
+ 11 KSP residual norm ||r||_B = 3.586218e-04
+ 12 KSP residual norm ||r||_B = 1.973508e-04
+ 13 KSP residual norm ||r||_B = 1.148315e-04
+ 14 KSP residual norm ||r||_B = 7.832962e-05
+ 15 KSP residual norm ||r||_B = 4.318962e-05
+ 16 KSP residual norm ||r||_B = 2.600826e-05
+ 17 KSP residual norm ||r||_B = 1.879037e-05
+ 18 KSP residual norm ||r||_B = 1.331555e-05
+ 19 KSP residual norm ||r||_B = 1.064074e-05
+ 20 KSP residual norm ||r||_B = 7.695791e-06
+ 21 KSP residual norm ||r||_B = 5.965019e-06
+ 22 KSP residual norm ||r||_B = 3.288131e-06
+ 23 KSP residual norm ||r||_B = 1.949942e-06
+ 24 KSP residual norm ||r||_B = 9.947075e-07
+ 25 KSP residual norm ||r||_B = 6.328785e-07
+ 26 KSP residual norm ||r||_B = 4.110034e-07
+ 27 KSP residual norm ||r||_B = 3.209794e-07
+ 28 KSP residual norm ||r||_B = 1.726331e-07
+ 29 KSP residual norm ||r||_B = 9.389983e-08
+PCG solver converged in 29 iterations (avg. reduction factor: 5.202e-01)
+ Sol. ||V|| = 2.143123e+01 (||RHS|| = 1.604252e+01)
+ Field energy E = 1.620e-11 J
+ Updating solution error estimates
+
+It 9/19: Index = 9 (elapsed time = 7.26e+03 s)
+
+  Residual norms for PCG solve
+  0 KSP residual norm ||r||_B = 4.001892e+00
+  1 KSP residual norm ||r||_B = 2.556208e-01
+  2 KSP residual norm ||r||_B = 1.055555e-01
+  3 KSP residual norm ||r||_B = 5.718473e-02
+  4 KSP residual norm ||r||_B = 2.936018e-02
+  5 KSP residual norm ||r||_B = 2.230523e-02
+  6 KSP residual norm ||r||_B = 1.552046e-02
+  7 KSP residual norm ||r||_B = 1.062180e-02
+  8 KSP residual norm ||r||_B = 6.547841e-03
+  9 KSP residual norm ||r||_B = 3.113885e-03
+ 10 KSP residual norm ||r||_B = 1.374757e-03
+ 11 KSP residual norm ||r||_B = 6.018945e-04
+ 12 KSP residual norm ||r||_B = 2.683741e-04
+ 13 KSP residual norm ||r||_B = 1.524369e-04
+ 14 KSP residual norm ||r||_B = 1.323826e-04
+ 15 KSP residual norm ||r||_B = 9.960490e-05
+ 16 KSP residual norm ||r||_B = 6.698868e-05
+ 17 KSP residual norm ||r||_B = 1.590897e-05
+ 18 KSP residual norm ||r||_B = 7.730143e-06
+ 19 KSP residual norm ||r||_B = 6.546992e-06
+ 20 KSP residual norm ||r||_B = 5.897045e-06
+ 21 KSP residual norm ||r||_B = 5.047437e-06
+ 22 KSP residual norm ||r||_B = 2.680526e-06
+ 23 KSP residual norm ||r||_B = 1.212547e-06
+ 24 KSP residual norm ||r||_B = 6.323501e-07
+ 25 KSP residual norm ||r||_B = 3.253006e-07
+ 26 KSP residual norm ||r||_B = 2.318842e-07
+ 27 KSP residual norm ||r||_B = 1.594846e-07
+ 28 KSP residual norm ||r||_B = 1.046735e-07
+PCG solver converged in 28 iterations (avg. reduction factor: 5.115e-01)
+ Sol. ||V|| = 1.807367e+01 (||RHS|| = 2.632564e+01)
+ Field energy E = 1.734e-10 J
+ Updating solution error estimates
+
+It 10/19: Index = 10 (elapsed time = 8.30e+03 s)
+
+  Residual norms for PCG solve
+  0 KSP residual norm ||r||_B = 2.825003e+00
+  1 KSP residual norm ||r||_B = 2.471153e-01
+  2 KSP residual norm ||r||_B = 9.953636e-02
+  3 KSP residual norm ||r||_B = 3.991064e-02
+  4 KSP residual norm ||r||_B = 2.325700e-02
+  5 KSP residual norm ||r||_B = 1.733584e-02
+  6 KSP residual norm ||r||_B = 1.077984e-02
+  7 KSP residual norm ||r||_B = 5.481501e-03
+  8 KSP residual norm ||r||_B = 4.357013e-03
+  9 KSP residual norm ||r||_B = 3.454491e-03
+ 10 KSP residual norm ||r||_B = 3.167648e-03
+ 11 KSP residual norm ||r||_B = 2.021393e-03
+ 12 KSP residual norm ||r||_B = 6.914994e-04
+ 13 KSP residual norm ||r||_B = 2.410773e-04
+ 14 KSP residual norm ||r||_B = 1.112415e-04
+ 15 KSP residual norm ||r||_B = 4.056041e-05
+ 16 KSP residual norm ||r||_B = 1.776124e-05
+ 17 KSP residual norm ||r||_B = 8.056369e-06
+ 18 KSP residual norm ||r||_B = 3.861595e-06
+ 19 KSP residual norm ||r||_B = 2.937922e-06
+ 20 KSP residual norm ||r||_B = 2.101236e-06
+ 21 KSP residual norm ||r||_B = 1.318378e-06
+ 22 KSP residual norm ||r||_B = 8.991749e-07
+ 23 KSP residual norm ||r||_B = 6.090205e-07
+ 24 KSP residual norm ||r||_B = 2.751701e-07
+ 25 KSP residual norm ||r||_B = 1.403770e-07
+PCG solver converged in 25 iterations (avg. reduction factor: 4.778e-01)
+ Sol. ||V|| = 1.838073e+01 (||RHS|| = 1.781842e+01)
+ Field energy E = 8.603e-11 J
+ Updating solution error estimates
+
+It 11/19: Index = 11 (elapsed time = 9.25e+03 s)
+
+  Residual norms for PCG solve
+  0 KSP residual norm ||r||_B = 2.744670e+00
+  1 KSP residual norm ||r||_B = 1.913501e-01
+  2 KSP residual norm ||r||_B = 4.505699e-02
+  3 KSP residual norm ||r||_B = 1.893712e-02
+  4 KSP residual norm ||r||_B = 8.336179e-03
+  5 KSP residual norm ||r||_B = 5.047377e-03
+  6 KSP residual norm ||r||_B = 3.460806e-03
+  7 KSP residual norm ||r||_B = 1.772180e-03
+  8 KSP residual norm ||r||_B = 6.173531e-04
+  9 KSP residual norm ||r||_B = 3.329199e-04
+ 10 KSP residual norm ||r||_B = 2.989241e-04
+ 11 KSP residual norm ||r||_B = 2.143452e-04
+ 12 KSP residual norm ||r||_B = 1.225721e-04
+ 13 KSP residual norm ||r||_B = 1.067382e-04
+ 14 KSP residual norm ||r||_B = 6.969532e-05
+ 15 KSP residual norm ||r||_B = 2.867490e-05
+ 16 KSP residual norm ||r||_B = 1.523169e-05
+ 17 KSP residual norm ||r||_B = 1.308671e-05
+ 18 KSP residual norm ||r||_B = 7.770462e-06
+ 19 KSP residual norm ||r||_B = 2.699045e-06
+ 20 KSP residual norm ||r||_B = 8.394453e-07
+ 21 KSP residual norm ||r||_B = 2.640710e-07
+ 22 KSP residual norm ||r||_B = 8.285719e-08
+PCG solver converged in 22 iterations (avg. reduction factor: 4.161e-01)
+ Sol. ||V|| = 3.329287e+01 (||RHS|| = 2.226801e+01)
+ Field energy E = 7.819e-11 J
+ Updating solution error estimates
+
+It 12/19: Index = 12 (elapsed time = 9.89e+03 s)
+
+  Residual norms for PCG solve
+  0 KSP residual norm ||r||_B = 2.290838e+00
+  1 KSP residual norm ||r||_B = 1.915628e-01
+  2 KSP residual norm ||r||_B = 5.281313e-02
+  3 KSP residual norm ||r||_B = 3.793587e-02
+  4 KSP residual norm ||r||_B = 2.127351e-02
+  5 KSP residual norm ||r||_B = 8.881722e-03
+  6 KSP residual norm ||r||_B = 2.814220e-03
+  7 KSP residual norm ||r||_B = 1.360141e-03
+  8 KSP residual norm ||r||_B = 1.352075e-03
+  9 KSP residual norm ||r||_B = 1.017185e-03
+ 10 KSP residual norm ||r||_B = 4.235581e-04
+ 11 KSP residual norm ||r||_B = 2.025666e-04
+ 12 KSP residual norm ||r||_B = 1.447212e-04
+ 13 KSP residual norm ||r||_B = 8.137146e-05
+ 14 KSP residual norm ||r||_B = 3.293528e-05
+ 15 KSP residual norm ||r||_B = 1.339548e-05
+ 16 KSP residual norm ||r||_B = 8.016155e-06
+ 17 KSP residual norm ||r||_B = 8.548892e-06
+ 18 KSP residual norm ||r||_B = 7.440263e-06
+ 19 KSP residual norm ||r||_B = 2.764025e-06
+ 20 KSP residual norm ||r||_B = 7.424944e-07
+ 21 KSP residual norm ||r||_B = 2.206075e-07
+ 22 KSP residual norm ||r||_B = 6.559553e-08
+PCG solver converged in 22 iterations (avg. reduction factor: 4.119e-01)
+ Sol. ||V|| = 3.282913e+01 (||RHS|| = 2.046534e+01)
+ Field energy E = 4.898e-11 J
+ Updating solution error estimates
+
+It 13/19: Index = 13 (elapsed time = 1.05e+04 s)
+
+  Residual norms for PCG solve
+  0 KSP residual norm ||r||_B = 2.469175e+00
+  1 KSP residual norm ||r||_B = 4.169842e-01
+  2 KSP residual norm ||r||_B = 7.659813e-02
+  3 KSP residual norm ||r||_B = 2.006970e-02
+  4 KSP residual norm ||r||_B = 6.626756e-03
+  5 KSP residual norm ||r||_B = 1.909453e-03
+  6 KSP residual norm ||r||_B = 6.337441e-04
+  7 KSP residual norm ||r||_B = 2.449032e-04
+  8 KSP residual norm ||r||_B = 1.631794e-04
+  9 KSP residual norm ||r||_B = 1.135483e-04
+ 10 KSP residual norm ||r||_B = 5.933297e-05
+ 11 KSP residual norm ||r||_B = 3.435319e-05
+ 12 KSP residual norm ||r||_B = 3.035832e-05
+ 13 KSP residual norm ||r||_B = 2.145022e-05
+ 14 KSP residual norm ||r||_B = 1.203657e-05
+ 15 KSP residual norm ||r||_B = 7.722581e-06
+ 16 KSP residual norm ||r||_B = 5.949122e-06
+ 17 KSP residual norm ||r||_B = 3.360182e-06
+ 18 KSP residual norm ||r||_B = 2.019018e-06
+ 19 KSP residual norm ||r||_B = 1.329858e-06
+ 20 KSP residual norm ||r||_B = 8.366371e-07
+ 21 KSP residual norm ||r||_B = 6.196640e-07
+ 22 KSP residual norm ||r||_B = 3.812392e-07
+PCG solver converged in 22 iterations (avg. reduction factor: 4.310e-01)
+ Sol. ||V|| = 8.559344e+01 (||RHS|| = 4.214389e+01)
+ Field energy E = 2.504e-11 J
+ Updating solution error estimates
+
+It 14/19: Index = 14 (elapsed time = 1.13e+04 s)
+
+  Residual norms for PCG solve
+  0 KSP residual norm ||r||_B = 2.783685e+00
+  1 KSP residual norm ||r||_B = 3.593826e-01
+  2 KSP residual norm ||r||_B = 5.824977e-02
+  3 KSP residual norm ||r||_B = 1.005083e-02
+  4 KSP residual norm ||r||_B = 2.781688e-03
+  5 KSP residual norm ||r||_B = 1.027844e-03
+  6 KSP residual norm ||r||_B = 2.944976e-04
+  7 KSP residual norm ||r||_B = 1.163749e-04
+  8 KSP residual norm ||r||_B = 6.582901e-05
+  9 KSP residual norm ||r||_B = 4.686185e-05
+ 10 KSP residual norm ||r||_B = 2.806777e-05
+ 11 KSP residual norm ||r||_B = 1.472054e-05
+ 12 KSP residual norm ||r||_B = 1.161113e-05
+ 13 KSP residual norm ||r||_B = 1.007707e-05
+ 14 KSP residual norm ||r||_B = 5.065509e-06
+ 15 KSP residual norm ||r||_B = 2.893968e-06
+ 16 KSP residual norm ||r||_B = 2.397714e-06
+ 17 KSP residual norm ||r||_B = 1.577373e-06
+ 18 KSP residual norm ||r||_B = 7.938150e-07
+ 19 KSP residual norm ||r||_B = 5.443740e-07
+ 20 KSP residual norm ||r||_B = 3.620953e-07
+PCG solver converged in 20 iterations (avg. reduction factor: 3.938e-01)
+ Sol. ||V|| = 8.205689e+01 (||RHS|| = 4.531140e+01)
+ Field energy E = 1.690e-11 J
+ Updating solution error estimates
+
+It 15/19: Index = 15 (elapsed time = 1.19e+04 s)
+
+  Residual norms for PCG solve
+  0 KSP residual norm ||r||_B = 2.329521e+00
+  1 KSP residual norm ||r||_B = 1.904600e-01
+  2 KSP residual norm ||r||_B = 4.292753e-02
+  3 KSP residual norm ||r||_B = 2.200496e-02
+  4 KSP residual norm ||r||_B = 1.416776e-02
+  5 KSP residual norm ||r||_B = 7.910389e-03
+  6 KSP residual norm ||r||_B = 4.374700e-03
+  7 KSP residual norm ||r||_B = 2.335689e-03
+  8 KSP residual norm ||r||_B = 9.556181e-04
+  9 KSP residual norm ||r||_B = 3.518088e-04
+ 10 KSP residual norm ||r||_B = 1.236953e-04
+ 11 KSP residual norm ||r||_B = 8.416202e-05
+ 12 KSP residual norm ||r||_B = 7.965389e-05
+ 13 KSP residual norm ||r||_B = 4.202892e-05
+ 14 KSP residual norm ||r||_B = 1.503797e-05
+ 15 KSP residual norm ||r||_B = 4.600567e-06
+ 16 KSP residual norm ||r||_B = 1.447960e-06
+ 17 KSP residual norm ||r||_B = 5.495645e-07
+ 18 KSP residual norm ||r||_B = 4.053791e-07
+ 19 KSP residual norm ||r||_B = 4.615358e-07
+ 20 KSP residual norm ||r||_B = 3.017936e-07
+ 21 KSP residual norm ||r||_B = 1.100223e-07
+PCG solver converged in 21 iterations (avg. reduction factor: 4.046e-01)
+ Sol. ||V|| = 3.328013e+01 (||RHS|| = 2.075817e+01)
+ Field energy E = 5.290e-11 J
+ Updating solution error estimates
+
+It 16/19: Index = 16 (elapsed time = 1.24e+04 s)
+
+  Residual norms for PCG solve
+  0 KSP residual norm ||r||_B = 2.128594e+00
+  1 KSP residual norm ||r||_B = 1.913659e-01
+  2 KSP residual norm ||r||_B = 4.352415e-02
+  3 KSP residual norm ||r||_B = 2.359507e-02
+  4 KSP residual norm ||r||_B = 1.664416e-02
+  5 KSP residual norm ||r||_B = 8.781676e-03
+  6 KSP residual norm ||r||_B = 3.568540e-03
+  7 KSP residual norm ||r||_B = 2.302795e-03
+  8 KSP residual norm ||r||_B = 1.595421e-03
+  9 KSP residual norm ||r||_B = 8.621611e-04
+ 10 KSP residual norm ||r||_B = 4.305358e-04
+ 11 KSP residual norm ||r||_B = 2.518163e-04
+ 12 KSP residual norm ||r||_B = 1.388938e-04
+ 13 KSP residual norm ||r||_B = 1.051191e-04
+ 14 KSP residual norm ||r||_B = 1.017744e-04
+ 15 KSP residual norm ||r||_B = 4.686661e-05
+ 16 KSP residual norm ||r||_B = 1.797551e-05
+ 17 KSP residual norm ||r||_B = 9.838252e-06
+ 18 KSP residual norm ||r||_B = 6.777498e-06
+ 19 KSP residual norm ||r||_B = 3.392313e-06
+ 20 KSP residual norm ||r||_B = 1.064612e-06
+ 21 KSP residual norm ||r||_B = 3.125862e-07
+ 22 KSP residual norm ||r||_B = 8.863022e-08
+PCG solver converged in 22 iterations (avg. reduction factor: 4.174e-01)
+ Sol. ||V|| = 3.328073e+01 (||RHS|| = 2.040221e+01)
+ Field energy E = 4.208e-11 J
+ Updating solution error estimates
+
+It 17/19: Index = 17 (elapsed time = 1.32e+04 s)
+
+  Residual norms for PCG solve
+  0 KSP residual norm ||r||_B = 3.032996e+00
+  1 KSP residual norm ||r||_B = 2.278802e-01
+  2 KSP residual norm ||r||_B = 2.119537e-02
+  3 KSP residual norm ||r||_B = 4.387981e-03
+  4 KSP residual norm ||r||_B = 1.074363e-03
+  5 KSP residual norm ||r||_B = 2.129706e-04
+  6 KSP residual norm ||r||_B = 4.916429e-05
+  7 KSP residual norm ||r||_B = 9.928249e-06
+  8 KSP residual norm ||r||_B = 2.221348e-06
+  9 KSP residual norm ||r||_B = 5.823179e-07
+ 10 KSP residual norm ||r||_B = 1.218382e-07
+PCG solver converged in 10 iterations (avg. reduction factor: 1.402e-01)
+ Sol. ||V|| = 5.722756e+01 (||RHS|| = 4.180017e+01)
+ Field energy E = 8.546e-11 J
+ Updating solution error estimates
+
+It 18/19: Index = 18 (elapsed time = 1.33e+04 s)
+
+  Residual norms for PCG solve
+  0 KSP residual norm ||r||_B = 1.580452e+00
+  1 KSP residual norm ||r||_B = 2.006853e-01
+  2 KSP residual norm ||r||_B = 3.401997e-02
+  3 KSP residual norm ||r||_B = 8.083346e-03
+  4 KSP residual norm ||r||_B = 2.012863e-03
+  5 KSP residual norm ||r||_B = 4.011530e-04
+  6 KSP residual norm ||r||_B = 8.023946e-05
+  7 KSP residual norm ||r||_B = 2.130553e-05
+  8 KSP residual norm ||r||_B = 4.778580e-06
+  9 KSP residual norm ||r||_B = 1.040902e-06
+ 10 KSP residual norm ||r||_B = 2.458939e-07
+ 11 KSP residual norm ||r||_B = 4.601512e-08
+PCG solver converged in 11 iterations (avg. reduction factor: 1.619e-01)
+ Sol. ||V|| = 3.745680e+01 (||RHS|| = 2.306672e+01)
+ Field energy E = 1.419e-11 J
+ Updating solution error estimates
+
+It 19/19: Index = 19 (elapsed time = 1.35e+04 s)
+
+  Residual norms for PCG solve
+  0 KSP residual norm ||r||_B = 1.635580e+00
+  1 KSP residual norm ||r||_B = 2.082722e-01
+  2 KSP residual norm ||r||_B = 3.064596e-02
+  3 KSP residual norm ||r||_B = 7.275249e-03
+  4 KSP residual norm ||r||_B = 2.376943e-03
+  5 KSP residual norm ||r||_B = 4.629013e-04
+  6 KSP residual norm ||r||_B = 7.087182e-05
+  7 KSP residual norm ||r||_B = 1.304290e-05
+  8 KSP residual norm ||r||_B = 2.162536e-06
+  9 KSP residual norm ||r||_B = 3.708777e-07
+ 10 KSP residual norm ||r||_B = 6.141628e-08
+PCG solver converged in 10 iterations (avg. reduction factor: 1.388e-01)
+ Sol. ||V|| = 3.845953e+01 (||RHS|| = 2.323958e+01)
+ Field energy E = 1.340e-11 J
+ Updating solution error estimates
+
+Completed 0 iterations of adaptive mesh refinement (AMR):
+ Indicator norm = 7.820e-01, global unknowns = 2188319
+ Max. iterations = 0, tol. = 1.000e-02
+
+Estimated peak per-rank memory usage is: Min. 20.1G, Max. 20.1G, Avg. 20.1G, Total 20.1G
+Estimated peak per-node memory usage is: Min. 20.1G, Max. 20.1G, Avg. 20.1G, Total 20.1G
+
+Elapsed Time Report (s)           Min.        Max.        Avg.
+==============================================================
+Initialization                   6.264       6.264       6.264
+  Mesh Preprocessing            34.346      34.346      34.346
+Operator Construction           15.423      15.423      15.423
+Linear Solve                   112.822     112.822     112.822
+  Setup                         31.319      31.319      31.319
+  Preconditioner              1004.196    1004.196    1004.196
+  Coarse Solve                  10.034      10.034      10.034
+Estimation                       8.242       8.242       8.242
+  Construction                  68.039      68.039      68.039
+  Solve                      11911.390   11911.390   11911.390
+Postprocessing                  99.018      99.018      99.018
+  Paraview                     503.420     503.420     503.420
+Disk IO                         11.366      11.366      11.366
+--------------------------------------------------------------
+Total                        13816.273   13816.273   13816.273
+
+Peak Memory                   Per-Node       Total   Total HWM
+==============================================================
+Initialization                    2.0M        2.0M        2.0M
+  Mesh Preprocessing            784.7M      784.7M      786.7M
+Operator Construction             3.3G        3.3G        4.1G
+Linear Solve                      0.0K        0.0K        4.1G
+  Setup                           5.5G        5.5G        9.6G
+  Preconditioner                  0.0K        0.0K        9.6G
+  Coarse Solve                    0.0K        0.0K        9.6G
+Estimation                        2.7G        2.7G       12.3G
+  Construction                    5.5G        5.5G       17.8G
+  Solve                           1.0G        1.0G       18.8G
+Postprocessing                   12.0M       12.0M       18.8G
+  Paraview                      715.6M      715.6M       19.5G
+Disk IO                         518.8M      518.8M       20.0G
+--------------------------------------------------------------
+Total                            20.1G       20.1G       20.1G
+

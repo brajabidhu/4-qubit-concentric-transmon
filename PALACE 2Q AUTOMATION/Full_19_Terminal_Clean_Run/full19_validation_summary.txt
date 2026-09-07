@@ -1,0 +1,11 @@
+FULL 19-TERMINAL PALACE ELECTROSTATIC RUN
+========================================================================
+
+Return code: 0
+Runtime minutes: 230.2860
+C matrix shape: (19, 19)
+Maximum absolute asymmetry: 0.000000000000e+00 F
+Median absolute asymmetry: 0.000000000000e+00 F
+Minimum diagonal: 6.669167870007e-14 F
+Maximum diagonal: 2.042723792998e-11 F
+Minimum symmetric eigenvalue: 5.296086394568e-14 F
